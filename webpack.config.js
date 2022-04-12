@@ -6,8 +6,9 @@ module.exports = {
 
     // Punto de salida para el código procesado por webpack -> public/main.bundle.js
     output: {
-        path: path.join(__dirname, 'dist'),
-        filename: 'main.bundle.js'
+        path: path.join(__dirname, 'dist/'),
+        publicPath: "/dist/",
+        filename: "bundle.js"
     },
 
     // Indica el modo en que se está ejecutando nuestra aplicación.
@@ -34,6 +35,10 @@ module.exports = {
 
     // Indica al servidor de desarrollo
     devServer: {
-        contentBase: path.join(__dirname, 'src')
+        port: 3000,
+        compress: true,
+        static: {
+            directory: path.join(__dirname, "src")
+        },
     }
 };

@@ -2,4 +2,4 @@
 
 Para iniciar el proyecto es necesario ejecutar el siguiente comando:
 
-* Comando para ejecutar la aplicacióñ: `npm run start`
+* Comando para ejecutar la aplicación: `npm run start`

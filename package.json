@@ -1,6 +1,6 @@
 {
   "name": "react-webpack-babel",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Configuracion de una aplicacion React con WebPack y Babel.",
   "main": "index.js",
   "scripts": {
@@ -23,17 +23,17 @@
   },
   "homepage": "https://github.com/fmontalvoo/react-webpack-babel#readme",
   "devDependencies": {
-    "@babel/core": "^7.14.3",
-    "@babel/preset-env": "^7.14.2",
-    "@babel/preset-react": "^7.13.13",
-    "babel-loader": "^8.2.2",
+    "@babel/core": "^7.17.9",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "babel-loader": "^8.2.4",
     "path": "^0.12.7",
-    "webpack": "5.38.1",
-    "webpack-cli": "4.7.0",
-    "webpack-dev-server": "3.11.2"
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.8.1"
   },
   "dependencies": {
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
   }
 }
